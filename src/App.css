@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
+body{
+  font-family: 'Lato', sans-serif;
+  color: #000;
+  font-size: 14px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-transparent{
+  background-color: transparent;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-white{
+  background-color: #fff;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar{
+  padding: .5rem 0;
+}
+.navbar-nav a i{
+  color: #c2cbd8;
+  font-size: 20px;
+}
+.navbar-nav a i.active{
+  color: #006BFF;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: #000;
+  padding-right: 33px;
+}
+.just-end{
+  justify-content: flex-end;
+}
+.breadcrumb{
+  background-color: transparent;
+  padding: .75rem 0;
+}
+.pull-left{float: left;}
+.pull-right{float: right;}
+.flex-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: row;
+  justify-content: space-between;
+}
+.members h3{
+  font-size: 27px;
+}
+.members .btn{
+  background-color: #06d018;
+  border-color: #06d018;
+  width: 92px;
+  height: 39px;
+}
+label {
+  font-size: 15px;
+  font-weight: 600;
+}
+.admin{
+  background: linear-gradient(90deg, rgba(63,171,255,1) 0%, rgba(23,130,255,1) 50%, rgba(0,107,255,1) 100%);
+  color: #fff;
+  border-radius: 12px;
+  font-size: 11px;
+  padding: 3px 6px;
+  width: 54px;
+  height: 21px;
+}
+.nameList span{
+  color: #477BA1;
+}
+.del{
+  font-weight: 400;
+  font-size: 15px;
+  display: flex;
+  justify-content: end;
+  place-content: flex-end;
+  height: -webkit-fill-available;
+}
+.form-control{
+  border: 1px solid #3FABFF42;
+}
+.table td, .table th{
+  vertical-align: middle;
 }
 
-.App-link {
-  color: #61dafb;
+.del-icon{
+  color: #e86c60;
+  margin-right: 5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.del button{
+  background-color: transparent;
+  border: 0;
+}
+.grad-blue{
+  background: linear-gradient(90deg, rgba(63,171,255,1) 0%, rgba(23,130,255,1) 50%, rgba(0,107,255,1) 100%); 
+  color: #9c47fc;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-right: 5px;
+}
+.btn-grad{
+  background: linear-gradient(90deg, rgba(63,171,255,1) 0%, rgba(23,130,255,1) 50%, rgba(0,107,255,1) 100%); 
+  color: #fff;
+  border: 0;
+}
+.btn-grad:hover{
+  color: #fff;
+}
+.pic {
+  border-radius: 100%;
+  width: 42px;
+  height: 42px;
+}
+.badge-grad{
+  background: linear-gradient(90deg, rgba(63,171,255,1) 0%, rgba(23,130,255,1) 50%, rgba(0,107,255,1) 100%); 
+  border-radius: 100%;
+  color: #fff;
+  font-size: 14px;
+}
+.flag-icon.flag-icon-squared {
+  background-size: cover;
+  width: 20px;
 }
